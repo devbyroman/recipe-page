@@ -88,7 +88,7 @@ body {
 .recipe-ingredients {
   margin: 0 0 20px 0;
   padding-left: 18px;
-  color: var(--ingredients-text);
+  color: var(--brown-light);
   font-size: 1.07rem;
 }
 .recipe-ingredients li { margin-bottom: 8px;padding: 5px; }
@@ -100,7 +100,7 @@ body {
   font-size: 1.04rem;
 }
 .recipe-instructions li { margin-bottom: 11px; }
-.recipe-instructions b { color: var(--brown); }
+.recipe-instructions b { color: var(--ingredients-text); }
 
 hr {
   border: none;
