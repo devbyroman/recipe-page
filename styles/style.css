@@ -67,6 +67,7 @@ body {
   padding-left: 20px;
 }
 .recipe-preptime li {
+  padding: 5px;
   margin-bottom: 4px;
   font-size: 1em;
   color:	var(--brown-light)
@@ -90,7 +91,7 @@ body {
   color: var(--ingredients-text);
   font-size: 1.07rem;
 }
-.recipe-ingredients li { margin-bottom: 8px; }
+.recipe-ingredients li { margin-bottom: 8px;padding: 5px; }
 
 .recipe-instructions {
   margin: 0 0 24px 0;
