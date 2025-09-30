@@ -1,0 +1,90 @@
+body {
+  background: #f3e8df;
+  font-family: 'Outfit', sans-serif;
+  color: #7e3e17;
+}
+
+.recipe-card {
+  background: #fff;
+  border-radius: 25px;
+  max-width: 540px;
+  margin: 50px auto;
+  box-shadow: 0 8px 48px #c9c1b633;
+  padding: 40px 32px 36px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.recipe-photo {
+  border-radius: 18px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  object-fit: cover;
+}
+
+.recipe-title {
+   font-family: 'Young Serif', serif;
+        font-weight: 400;
+  font-size: 2.2rem;
+  /* font-weight: 700; */
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.recipe-description {
+  font-size: 1.08rem;
+  color: #7e3e17;
+  margin-bottom: 18px;
+}
+
+.recipe-preptime {
+  background: #f7f3fa;
+  border-radius: 13px;
+  padding: 24px 22px 18px 22px;
+  margin-bottom: 7px;
+}
+.preptime-title { color: #663222; font-weight: 700; margin-bottom: 11px; font-size:1.1rem;}
+.recipe-preptime ul { margin: 0; padding-left: 16px; color: #663222; }
+.recipe-preptime li { margin-bottom: 3px; font-size: 1rem;padding: 10px; }
+
+.recipe-section-heading {
+  color: #7e3e17;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.recipe-ingredients {
+  margin: 0 0 18px 0;
+  padding-left: 22px;
+  color: #653813;
+  font-size: 1.07rem;
+}
+.recipe-ingredients li { margin-bottom: 6px;padding: 10px; }
+
+.recipe-instructions {
+  margin: 0 0 18px 0;
+  padding-left: 22px;
+  color: hsl(24, 5%, 18%);
+  font-size: 1.06rem;
+}
+.recipe-instructions li { margin-bottom: 8px; }
+.recipe-instructions b { color: hsl(24, 5%, 18%) }
+
+.recipe-nutrition {
+  width: 100%;
+  margin-top: 14px;
+  border-collapse: collapse;
+  color: #7e3e17;
+  font-size: 1.04rem;
+}
+.recipe-nutrition th, .recipe-nutrition td {
+  padding: 9px 0;
+  border-bottom: 1px solid #ead9cb;
+  text-align: left;
+}
+.recipe-nutrition tr:last-child th,
+.recipe-nutrition tr:last-child td { border-bottom: none; }
+.recipe-nutrition td b { color: #b85c27; font-weight: 700; }
